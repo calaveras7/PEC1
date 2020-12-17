@@ -1,0 +1,333 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #AAAAAA;
+    font-family: 'Andika New Basic', 'Noto Sans JP', 'Padauk', 'Verdana', 'sans-serif';
+    font-size: 1.3em;
+}
+
+header {
+    height: 100px;
+    overflow: hidden;
+}
+header h1 img {
+    float: left;
+    width: 100px;
+    margin-right: 2.2em;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    text-transform: uppercase;
+    color: orange;
+    font-size: 1em;
+}
+
+a{
+    color: orange;
+}
+
+main  {
+    background-color: white;
+    color: grey;
+    border-radius: 15px;
+}
+
+.imagen_central {
+    width: 500px;
+    margin-bottom: 2em;
+    margin-top: 10em;
+    height: 500px;
+    display:block;
+    margin: auto;
+    
+}
+h2 {
+    clear: both;
+    margin-top: 3em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: orangered;
+    text-align: center;
+    margin-bottom: 1.3em;
+}
+.pasteleria{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    line-height: 1.5em;
+}
+
+
+
+.textoMenu{
+    text-align: center;
+    float: left;
+    margin-bottom: 3em;
+
+}
+
+.descripcionTienda p {
+    line-height: 1.2em;
+}
+
+.descripcionTienda{
+    clear: both;
+    margin-top: 3em;
+    text-align: left;
+    float: left;
+    width: 50%;
+    margin-left: 2em;
+}
+
+
+.descripcionTienda p.destacado{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.fotoFachada{
+    width: 40%;
+    margin-bottom: 2em;
+    margin-top: 5em;
+    height: 500px;
+}
+
+
+footer{
+    background-color: burlywood;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+footer p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+
+}
+
+
+.fotoTarta{
+    width: 500px;
+    height: 500px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: block;
+    margin:auto
+}
+
+.tartaChocolate {
+    float:right;
+    font-size: 1em;
+    margin-right: 2em;
+
+}
+
+.tartaChocolate p.destacado{
+    font-weight: bold;
+    font-size: 1.4em;
+    color: rgb(255, 208, 0);
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.tartaChocolate p{
+    text-align:justify;
+    margin-top: 5em;
+    line-height: 2em;
+}
+
+.tartaChocolate img{
+    width: 400px;
+    float: left;
+    padding-right: 3em;
+    height: 300px;
+}
+
+.tartaZanahoria{
+    float: left;
+    font-size: 1em;
+    margin-bottom: 2em;
+
+}
+
+.tartaZanahoria p.destacado{
+    font-weight: bold;
+    font-size: 1.4em;
+    color: rgb(255, 208, 0);
+    text-align: center;
+    margin-bottom: 2em ;
+    margin-top: 2em;
+ 
+}
+
+.tartaZanahoria p{
+    text-align: justify;
+    line-height: 2em;
+
+}
+
+
+.tartaZanahoria img{
+    width: 300px;
+    float: right;
+    margin-left: 3em;
+
+}
+
+.tartaBizcocho p.destacado{
+    font-weight: bold;
+    font-size: 1.4em;
+    color: rgb(255, 208, 0);
+    text-align: center;
+}
+
+.tartaBizcocho img{
+    width: 400px;
+    float: left;
+    margin-right: 3em;
+    margin-bottom: 2em;
+}
+
+.tartaBizcocho p{
+    text-align: justify;
+    line-height: 2em;
+}
+
+table{
+    margin-top: 2em;
+    float: right;
+    width: 100%;
+    margin: auto;
+    border: orangered 5px solid;
+    border-collapse: separate;
+    margin-bottom: 2em;
+}
+
+table thead{
+    background-color: red;
+    color: white;
+    padding: 0.5em;
+}
+
+table td{
+    padding: 0.5em;
+    text-align: center;
+}
+
+.textoPasteles{
+    color:black;
+    margin-top: 2em;
+    text-transform: initial;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 2em;
+    border: orangered 7px solid;
+    background-color: cornsilk;
+    text-align: center;
+}
+
+.pastelesCrema{
+    width: 33%;
+    float: left;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    text-align: center;
+    padding-left: 0.1em;
+}
+
+.pastelesCrema p.destacado{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(114, 37, 37);
+    text-align: center;
+    margin-bottom: 2em ;
+    margin-top: 0.5em;
+}
+
+.pastelesCrema img{
+    width: 50%;
+    margin-top: 1em;
+}
+
+.pastelesNata{
+    width: 33%;
+    float: left;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    text-align: center;
+    padding-left: 0.1em;
+}
+
+.pastelesNata p.destacado{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(114, 37, 37);
+    text-align: center;
+    margin-bottom: 2em ;
+    margin-top: 0.5em;
+}
+
+.pastelesNata img{
+    width: 50%;
+    margin-top: 1em;
+}
+
+
+.pastelesChocolate{
+    width: 33%;
+    float: left;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    text-align: center;
+    padding-left: 0.1em;
+}
+
+.pastelesChocolate p.destacado{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(114, 37, 37);
+    text-align: center;
+    margin-bottom: 2em ;
+    margin-top: 0.5em;
+}
+
+.pastelesChocolate img{
+    width: 50%;
+    margin-top: 1em;
+}
+
+.tablaPasteles{
+    margin-top: 2em;
+    float: right;
+    width: 100%;
+    margin: auto;
+    border: rgb(114, 37, 37) 5px solid;
+    margin-bottom: 1em;
+    background-color: cornsilk;
+}
+
+.tablaPasteles thead{
+    background-color: orange;
+        color: white;
+        padding: 0.5em;
+}
+
+.pie_pasteles{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+
+}
+
